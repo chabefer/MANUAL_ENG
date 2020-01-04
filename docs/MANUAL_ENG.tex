@@ -1,0 +1,162 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Un petit manual de psychologie contemporaine à destination de ceux qui souffrent},
+            pdfauthor={Arnaud Passé},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Un petit manual de psychologie contemporaine à destination de ceux qui souffrent}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Arnaud Passé}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2020-01-04}
+
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{0}
+\tableofcontents
+}
+\hypertarget{introduction}{%
+\chapter*{Introduction}\label{introduction}}
+\addcontentsline{toc}{chapter}{Introduction}
+
+Ce livre est une série de notes prises pour documenter ma progression dans la compréhension des enseignements de la psychologie contemporaine, notamment pour ce qui a trait à la résolution des souffrances psychologiques.
+
+Les souffrances psychologiques sont une des sources majeures de mal-être dans les sociétés développées contemporaines.
+Je développe dans mes romans des exemples de la souffrance psychologique et de ses résultats sur la vie des gens.
+Dans ce petit manuel, je compile ce que j'ai compris et ce que j'ai trouvé utile dans les enseignement de la psychologie contemporaine pour résoudre les souffrances psychologiques.
+
+J'aborde notamment les approches comportementale et cognitive, la théorie de la personnalité et la science de la mesure du bien-être ainsi que les programmes de développement des compétences socio-émotionnelles chez les enfants.
+
+Ce livre vise à familiariser les lecteurs français avec les résultats de la psychologie comportementale et cognitive et en donner ma propre lecture.
+Un livre peut être une source de réconfort et de croissance personnelle, j'en ai fait maintes fois l'expérience.
+C'est notamment le cas si vous souhaitez améliorer votre confort de vie et réduire votre souffrance psychologique alors qu'elle n'est pas pathologique.
+
+Si vous souffrez dans des conditions bien supérieures (et plusieurs tests dans le livre vous aideront à le décider), consultez.
+Un livre ne saurait se substituer à une relation thérapeutique.
+
+Ce livre est aussi open source et collaboratif, donc si vous le souhaitez, vous pouvez le brancher et faire des corrections et des propositions.
+
+\hypertarget{measure}{%
+\chapter{Measure}\label{measure}}
+
+\hypertarget{personality-traits}{%
+\section{Personality traits}\label{personality-traits}}
+
+\hypertarget{iq}{%
+\section{IQ}\label{iq}}
+
+\hypertarget{welfare}{%
+\section{Welfare}\label{welfare}}
+
+\hypertarget{psychological-suffering}{%
+\section{Psychological suffering}\label{psychological-suffering}}
+
+\hypertarget{correlate}{%
+\chapter{Correlate}\label{correlate}}
+
+\hypertarget{big5-and-life-events}{%
+\section{Big5 and life events}\label{big5-and-life-events}}
+
+\hypertarget{big5-and-welfare}{%
+\section{Big5 and welfare}\label{big5-and-welfare}}
+
+\hypertarget{big5-and-psychological-disease}{%
+\section{Big5 and psychological disease}\label{big5-and-psychological-disease}}
+
+\hypertarget{cure}{%
+\chapter{Cure}\label{cure}}
+
+\hypertarget{rational-therapy}{%
+\section{Rational therapy}\label{rational-therapy}}
+
+\hypertarget{tcc}{%
+\section{TCC}\label{tcc}}
+
+\hypertarget{third-generation-therapies}{%
+\section{Third generation therapies}\label{third-generation-therapies}}
+
+\hypertarget{programs-for-children}{%
+\section{Programs for Children}\label{programs-for-children}}
+
+\hypertarget{practice}{%
+\chapter{Practice}\label{practice}}
+
+
+\end{document}

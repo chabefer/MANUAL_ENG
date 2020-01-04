@@ -1,0 +1,32 @@
+--- 
+title: "Un petit manual de psychologie contemporaine à destination de ceux qui souffrent"
+author: "Arnaud Passé"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+#output: bookdown::gitbook
+documentclass: book
+#bibliography: [book.bib, packages.bib]
+#biblio-style: apalike
+#link-citations: yes
+github-repo: chabefer/MANUAL_ENG
+description: "An open source and collaborative book."
+---
+
+# Introduction {-}
+
+Ce livre est une série de notes prises pour documenter ma progression dans la compréhension des enseignements de la psychologie contemporaine, notamment pour ce qui a trait à la résolution des souffrances psychologiques.
+
+Les souffrances psychologiques sont une des sources majeures de mal-être dans les sociétés développées contemporaines.
+Je développe dans mes romans des exemples de la souffrance psychologique et de ses résultats sur la vie des gens.
+Dans ce petit manuel, je compile ce que j'ai compris et ce que j'ai trouvé utile dans les enseignement de la psychologie contemporaine pour résoudre les souffrances psychologiques.
+
+J'aborde notamment les approches comportementale et cognitive, la théorie de la personnalité et la science de la mesure du bien-être ainsi que les programmes de développement des compétences socio-émotionnelles chez les enfants.
+
+Ce livre vise à familiariser les lecteurs français avec les résultats de la psychologie comportementale et cognitive et en donner ma propre lecture. 
+Un livre peut être une source de réconfort et de croissance personnelle, j'en ai fait maintes fois l'expérience.
+C'est notamment le cas si vous souhaitez améliorer votre confort de vie et réduire votre souffrance psychologique alors qu'elle n'est pas pathologique.
+
+Si vous souffrez dans des conditions bien supérieures (et plusieurs tests dans le livre vous aideront à le décider), consultez.
+Un livre ne saurait se substituer à une relation thérapeutique.
+
+Ce livre est aussi open source et collaboratif, donc si vous le souhaitez, vous pouvez le brancher et faire des corrections et des propositions.

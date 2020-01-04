@@ -1,0 +1,17 @@
+bookdown::gitbook:
+  includes:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">A Little Manual of Contemporary Psychology for Those Who Suffer</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    toc_depth: 1
+    edit: https://github.com/chabefer/MANUAL_ENG/blob/master/%s
+    download: ["pdf"]
+bookdown::pdf_book:
+  includes:
+  keep_tex: yes
+  toc_depth: 1
+bookdown::epub_book: default
